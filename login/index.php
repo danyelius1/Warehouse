@@ -16,23 +16,21 @@
 <div class="main">
 
     <fieldset>
-
+        <legend>login</legend>
         <form action="index.php" method="post">
 
-            <label for="vardas">name</label>
-            <input type="text" name="name" id="name" required>
+            <label for="vardas">name:</label><br>
+            <input type="text" name="name" id="name" required><br>
 
-            <label for="email">email</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">email:</label><br>
+            <input type="email" id="email" name="email" required><br>
 
-            <label for="password">password</label>
-            <input type="password" id="password" name="password" required>
+            <label for="password">password:</label><br>
+            <input type="password" id="password" name="password" required><br>
 
-            <input type="submit" name="submit" id="submit">
-
+            <input type="submit" name="submit" id="submit" class="login">
 
         </form>
-
     </fieldset>
 
 </div>
